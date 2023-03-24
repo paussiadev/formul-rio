@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<!--Divisão 1-->
+<body>
+   <form>
+    <fieldset>
+        <legend>Cadastro</legend>
+        <label for="inome">Nome</label>
+        <input id="inome" name="tnome" type="text">
+        <br>
+        <label for="idata">Data de Nascimento</label>
+        <input id="idata" name="ddata" type="date">
+        <br>
+        <!--Divisão 2-->
+        <label for="igenero">Gênero</label>
+        <select id="igenero" name="slgenero">
+            <option value="M">masculino</option>
+            <option value="F">Feminino</option>
+            <option value="A">Agênero</option>
+        </select>
+        <br>
+
+
+        <label>Tipo:</label>
+        <br>
+        <input type="radio" name="rtipo" id="iusuario" value="U">
+        <label for="usuario">Usuário</label>
+        <br>
+        <input type="radio" name="rtipo" id="iadm" value="A">
+        <label for="administrador">Administrador</label>
+        <br>
+
+        
+        <!--Divisão 3-->
+        <label for="iemail">Email</label>
+        <input id="iemail" name="temail" type="text">
+        <br>
+        <label for="cemail">Confirme seu email</label>
+        <input id="cemail" name="tcemail" type="text">
+        <br>
+        <label for="ifale">Fale sobre você</label>
+        <br>
+        <textarea name="txtafale" id="ifale" cois="50" rows="20"></textarea>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="submit" value="limpar">
+    </fieldset>
+   </form>
+</body>
+</html>
